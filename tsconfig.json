@@ -1,0 +1,52 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "paths": {
+      "ant-design-vue": ["components/index.ts"],
+      "ant-design-vue/es/*": ["components/*"],
+      "@components/*": ["./components/*"],
+      "@assets/*": ["./assets/*"],
+    },
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "strictNullChecks": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "jsx": "preserve",
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "importsNotUsedAsValues": "preserve",
+    "target": "es5",
+    "useDefineForClassFields": true,
+    "module": "esnext",
+    "strict": false,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+  },
+  "exclude": ["node_modules", "lib", "es", "dist", "v2-doc", "scripts", "**/__tests__/**/*"],
+  "forceConsistentCasingInFileNames": true,
+  "isolatedModules": true,
+  "lib": ["dom", "dom.iterable", "esnext"],
+  "module": "esnext",
+  "moduleResolution": "node",
+  "noEmit": true,
+  "noFallthroughCasesInSwitch": true,
+  "resolveJsonModule": true,
+  "skipLibCheck": true,
+  "strict": true,
+  "target": "es5",
+  "types": ["node", "vite/client"],
+  "include": [
+    "components/**/*.ts",
+    "components/**/*.d.ts",
+    "components/**/*.tsx",
+    "components/**/*.vue"
+  ]
+}
